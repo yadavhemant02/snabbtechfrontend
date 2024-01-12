@@ -1,0 +1,80 @@
+mat-grid-tile {
+    background: lightblue;
+  }
+
+  .image{
+    width:  950.67px;
+   height:  1043.17px ;
+   top: -7.57px;
+   left:  -19.44px;
+    
+   
+}
+.ss{
+    padding: 20px;
+   position: absolute;
+    width: 394.98px;
+height: 938.38px;
+top: 77.04px;
+left: 283.78px;
+border-radius: 35px;
+
+}
+.join-button{
+width: 150px;
+height: 49px;
+top: 840.32px;
+left: 437.57px;
+border-radius: 35px;
+border: 0.5px;
+
+}
+
+button :hover{
+    background-color:rebeccapurple;
+    color: black;
+}
+
+.join-contain p{
+    top: 30px;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #ACB5BD;
+
+}
+
+.join-chapcha{
+    width: 244px;
+height: 72px;
+top: 681.92px;
+left: 403px;
+
+}
+
+.join-chapcha p{
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+
+.join-form{
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+}
+
+mat-form-field{
+    width: 100%;
+}
+
+
+
+

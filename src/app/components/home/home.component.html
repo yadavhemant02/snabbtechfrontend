@@ -1,0 +1,142 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../assets/image/WhatsApp Image 2024-01-10 at 10.34.53 PM.jpeg" class="image">
+
+            </div>
+
+            <div class="col-md -6" style=" position: relative;">
+
+                <!-- Edite in this coloum .............. -->
+
+                <div class="ss">
+
+                    <mat-tab-group>
+
+                        <mat-tab label="join PANDA">
+
+                            <div style="border: .2px solid  #ACB5BD;; text-align: center; padding: 2em; margin-top: 3em; margin-bottom: 2em;"
+                                class="join-form">
+
+                                <div style="padding-top: 20px; padding-bottom: 20px; margin-top: 4em;">
+                                    <h3 style="font-family: josh; padding: 5px;">
+                                        <p style="font-size: 22px;"> <b>Create your free account</b></p>
+                                        Takes less than <i style="color: #A95454;">5 minutes...</i>
+                                    </h3>
+
+                                </div>
+
+                                <form>
+                                    <mat-form-field class="example-full-width">
+                                        <mat-label>Email</mat-label>
+                                        <input matInput placeholder="Enater Email" [(ngModel)]="data.email" name="email">
+                                    </mat-form-field>
+
+                                    <mat-form-field class="example-full-width">
+                                        <mat-label>Password</mat-label>
+                                        <input matInput placeholder="Enater Password" [(ngModel)]="data.password" name="password">
+                                    </mat-form-field>
+
+                                    <mat-form-field class="example-full-width">
+                                        <mat-label>Confirm Password</mat-label>
+                                        <input matInput placeholder="Enater Confirm Password" [(ngModel)]="data.confirmpassword" name="confirmpassword">
+                                    </mat-form-field>
+
+                                </form>
+                              <p style="color: #ACB5BD;">  {{Response}}</p>
+                         </div>
+
+
+                            <div class="join-chapcha" style=" margin-top: 10px;margin-left: 2em; margin-bottom: 2em;">
+
+                                <div style="display: flex;">
+                                    <div style="width: 28px; height: 28px; border: 1px solid #E0E0E0;">.</div>
+                                    <p style="margin-left: 10px;"> I am Expert
+                                    <p>
+                                </div>
+                                <div style="display: flex; justify-content:center;">
+                                    <div style="width: 28px; height: 28px;">*</div>
+                                    <p>I’m an Organization in Africa
+                                    <p>
+                                </div>
+                            </div>
+                            <div style="text-align: center; position: relative; padding-bottom: 60px;">
+                                 <!-- <button class="join-button" mat-stroked-button color="accent" type="submit" (click)="dosubmite()">join</button>  -->
+                                <button class="btn join-button" type="submit" (click)="dosubmite()"  style=" border: 1px solid #A95454; color: #A95454;">LogIn</button>
+                            </div>
+                            <div class="join-contain">
+                                <p>By clicking on "Create an account", you agree to our terms of use and privacy policy.
+                                </p>
+                            </div>
+
+
+                        </mat-tab>
+                        <mat-tab label="Sign in">
+                            <div style="border: .2px solid #ACB5BD; text-align: center; padding: 2em; margin-top: 3em; margin-bottom: 2em;"
+                                class="join-form">
+
+                               <div style="text-align: center; margin-top: 3em; margin-bottom: 3em;">
+                                <p style="font-size: 25px;">Sign In</p>
+                               </div>
+
+                                <form>
+                                    <mat-form-field class="example-full-width">
+                                        <mat-label>Email</mat-label>
+                                        <input matInput placeholder="Enter Email" [(ngModel)]="logindata.email" name="email">
+                                    </mat-form-field>
+
+                                    <mat-form-field class="example-full-width">
+                                        <mat-label>Password</mat-label>
+                                        <input matInput placeholder="Enter password" [(ngModel)]="logindata.password" name="password">
+                                    </mat-form-field>
+
+                                   
+
+                                </form>
+
+                                <p style="color: #ACB5BD;">{{loginresponse}}</p>
+
+                                <div style=" margin: 2em;">
+                                    <a href="forgetpassword"> Forget Password?</a>
+                                </div>
+                            </div>
+                            
+
+                            <div style="text-align: center; position: relative; padding-bottom: 60px;">
+                                <!-- <button class="join-button" mat-stroked-button color="accent" type="submit" (click)="dosubmite()">join</button>  -->
+                               <button class="btn join-button" type="submit" (click)="login()"  style=" border: 1px solid #A95454; color: #A95454;">LogIn</button>
+                           </div>
+
+                        </mat-tab>
+
+                    </mat-tab-group>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>>
